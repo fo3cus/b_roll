@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <!-- required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.darkly.css">
+    <link rel="stylesheet" href="css/my_style.css">
+    <link rel="stylesheet" href="css/all.css">
+
+    <title>B|ROLL > Contact</title>
+
+    <!-- custom favicon -->
+    <link rel="icon" href="imgs/favicon.png" type="image/png" sizes="16x16">
+
+</head>
+<body>
+
+
+<!-- JAVASCRIPT -->
+<!-- jquery first, then bootstrap js -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/all.js"></script>
+<script src="js/holder.js"></script>
+<!-- /JAVASCRIPT -->
+
+
+<!-- NAVBAR -->
+<nav class="mb-1 navbar navbar-expand-md navbar-dark default-color">
+    <a class="navbar-brand" href="index.html">
+        <img src="imgs/b_roll_logo.png" height="100" alt="b-roll logo"> B|<font class="text-primary">ROLL</font>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+            aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Galleries</a>
+                <div class="dropdown-menu" style="">
+                    <a class="dropdown-item" href="animals.html">Animals</a>
+                    <a class="dropdown-item" href="blackwhite.html">Black &amp; White</a>
+                    <a class="dropdown-item" href="landscapes.html">Landscapes</a>
+                    <a class="dropdown-item" href="macros.html">Macros</a>
+                    <a class="dropdown-item" href="travel.html">Travel</a>
+                    <a class="dropdown-item" href="underwater.html">Underwater</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+            <li class="nav-item">
+                <a class="nav-link waves-effect waves-light" href="https://www.facebook.com" target="_blank">
+                    <i class="fab fa-facebook-f white-text"></i>
+                </a>
+                <a class="nav-link waves-effect waves-light" href="https://www.twitter.com" target="_blank">
+                    <i class="fab fa-twitter white-text"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-effect waves-light" href="https://www.instagram.com" target="_blank">
+                    <i class="fab fa-instagram white-text"></i>
+                </a>
+                <a class="nav-link waves-effect waves-light" href="https://www.reddit.com" target="_blank">
+                    <i class="fab fa-reddit-alien white-text"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- /NAVBAR -->
+
+
+<!-- HEADER -->
+<div class="card text-center mb-4 bg-secondary">
+    <h2 class="card-title pt-3 mb-4 pb-5 bg-primary">Contact B|<font class="text-success">ROLL</font></h2>
+</div>
+<!-- /HEADER -->
+
+
+<!-- CONTACT FORM -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 ">
+            <form id="contact-form" method="post" action="" role="form">
+                <div class="messages"></div>
+                <div class="controls">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_name">Firstname *</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_lastname">Lastname *</label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_email">Email *</label>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_phone">Phone</label>
+                                <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="form_message">Message *</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required data-error="Please,leave us a message."></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-success btn-send" value="Send message">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- /CONTACT FORM -->
+
+
+<!-- FOOTER -->
+<footer class="page-footer">
+    <hr class="mt-1 mb-1">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="#"> B-<font class="text-white">ROLL</font>.co.nz</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- /FOOTER -->
+
+
+</body>
+</html>

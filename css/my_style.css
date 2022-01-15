@@ -1,0 +1,42 @@
+/* add black overlay for use over carousel */
+.black-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 300px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* override caption position and centre is vertically */
+.carousel-caption {
+  transform: translateY(-50%);
+  bottom: 0;
+  top: 40%;
+}
+
+.carousel {
+    height: 300px;
+    overflow: hidden;
+}
+
+/* override navbar link font size to better match brand name size */
+.nav-link {
+    font-size: 20px !important;
+}
+
+/* override the brand font size to make larger text beside the logo */
+.navbar-brand {
+    font-size: 30px !important;
+}
+
+/* shift modal window to the left and down a little to make it true horizontal center */
+.modal-content {
+    margin-left: -100px;
+    margin-bottom: -20px;
+}
+
+.shift-up {
+    margin-top: -75px;
+}
+
